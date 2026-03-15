@@ -1,0 +1,51 @@
+2026-03-15 17:39:54,022 - INFO - Job start timestamp
+2026-03-15 17:39:54,022 - INFO - Arguments parsed successfully. Config path: config.yaml
+2026-03-15 18:05:06,072 - INFO - Job start timestamp
+2026-03-15 18:05:06,073 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:05:06,096 - INFO - Deterministic seed set successfully.
+2026-03-15 18:16:27,041 - INFO - Job start timestamp
+2026-03-15 18:16:27,042 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:16:27,067 - INFO - Deterministic seed set successfully.
+2026-03-15 18:16:37,350 - INFO - Job start timestamp
+2026-03-15 18:16:37,352 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:16:37,353 - INFO - Deterministic seed set successfully.
+2026-03-15 18:16:37,353 - INFO - Deterministic seed set successfully.
+2026-03-15 18:16:37,353 - INFO - Attempting to load data from data.csv
+2026-03-15 18:16:37,354 - ERROR - Data validation failed: Input file not found: data.csv
+2026-03-15 18:20:26,169 - INFO - Job start timestamp
+2026-03-15 18:20:26,171 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:20:26,171 - INFO - Deterministic seed set successfully.
+2026-03-15 18:20:26,172 - INFO - Deterministic seed set successfully.
+2026-03-15 18:20:26,172 - INFO - Attempting to load data from data.csv
+2026-03-15 18:20:26,191 - ERROR - Data validation failed: Missing required column: 'close'
+2026-03-15 18:29:44,980 - INFO - Job start timestamp
+2026-03-15 18:29:44,981 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:29:44,981 - INFO - Deterministic seed set successfully.
+2026-03-15 18:29:44,981 - INFO - Deterministic seed set successfully.
+2026-03-15 18:29:44,982 - INFO - Attempting to load data from data.csv
+2026-03-15 18:29:45,008 - INFO - Data loaded successfully. Rows validated: 10000
+2026-03-15 18:34:26,018 - INFO - Job start timestamp
+2026-03-15 18:34:26,019 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:34:26,020 - INFO - Deterministic seed set successfully.
+2026-03-15 18:34:26,020 - INFO - Deterministic seed set successfully.
+2026-03-15 18:34:26,020 - INFO - Attempting to load data from data.csv
+2026-03-15 18:34:26,044 - INFO - Data loaded successfully. Rows validated: 10000
+2026-03-15 18:35:53,728 - INFO - Job start timestamp
+2026-03-15 18:35:53,729 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:35:53,730 - INFO - Deterministic seed set successfully.
+2026-03-15 18:35:53,730 - INFO - Attempting to load data from data.csv
+2026-03-15 18:35:53,756 - INFO - Data loaded successfully. Rows validated: 10000
+2026-03-15 18:35:53,756 - INFO - Starting data processing. Calculating rolling mean with window size 5.
+2026-03-15 18:35:53,759 - INFO - Signal generation complete.
+2026-03-15 18:35:53,759 - INFO - Metrics Summary - Rows: 10000, Signal Rate: 0.4991, Latency: 33ms
+2026-03-15 18:35:53,760 - INFO - Job completed successfully.
+2026-03-15 18:40:33,259 - INFO - Job start timestamp
+2026-03-15 18:40:33,260 - INFO - Config loaded and validated: seed=42, window=5, version=v1
+2026-03-15 18:40:33,261 - INFO - Deterministic seed set successfully.
+2026-03-15 18:40:33,261 - INFO - Attempting to load data from data.csv
+2026-03-15 18:40:33,284 - INFO - Data loaded successfully. Rows validated: 10000
+2026-03-15 18:40:33,285 - INFO - Starting data processing. Calculating rolling mean with window size 5.
+2026-03-15 18:40:33,289 - INFO - Signal generation complete.
+2026-03-15 18:40:33,290 - INFO - Metrics Summary - Rows: 10000, Signal Rate: 0.4991, Latency: 32ms
+2026-03-15 18:40:33,290 - INFO - Job completed successfully.
+2026-03-15 18:40:33,291 - INFO - Metrics written to metrics.json
